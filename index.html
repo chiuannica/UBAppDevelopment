@@ -1,0 +1,50 @@
+<!--WHAT IS HTML?
+    Hyper Text Markup Language
+    HTML describes the structure of a webpage... aka the text, pictures and other content
+    HTML is made up of mamy elements
+    HTML elements tell the browser how to display text and pictures
+    HTML elements are represented by tags
+        tags label content: <p>, <h1>, <h2>, <button>...
+-->
+<!DOCTYPE html> <!-- This means the document is HTML5 and ensures browers read the HTML correctly. 
+                THIS STARTS ALL HTML DOCUMENTS -->
+<html>          <!-- Root element of HTML page. EVERYTHING within this start tag and the 
+                end tag is HTML -->
+<head>          <!-- meta information about the document. Including the link to the 
+                stylesheet and little picture on a tab, and the displayed name of the page-->
+  <title>Page Title</title>
+</head>
+<body>          <!-- THE VISIBLE PAGE CONTENT is within this start tag and the end tag -->
+
+  <h1>Heading</h1>  <!--LARGE HEADING-->
+  <p>Paragraph</p>  <!-- Paragraph -->
+  <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/258.png" alt="Mudkip">
+    <!-- Image. NOTE: there is no end tag
+    src="" is the source attribute. It is
+    indicating where the document finds the image 
+    alt="" is for accessibility purposes and this
+    is neccessary for every picture you put on a 
+    website -->
+  <a href="https://google.com">Click here to go to google</a>
+    <!--This a tag is a link. The text inside the a tag is what is displayed on the page. 
+    href="" is where it goes. -->
+  <button>Click me</button> 
+  <div>
+    <h1>Annica's Favorite Things</h1>
+    <ul>                            <!-- ul is an unordered list aka bullet points-->
+        <li>Ice Cream</li>          <!-- li is an item in a list -->
+        <li>Her Dog</li>
+        <li>When it's time to eat</li>
+    </ul>
+  </div>
+  <div>
+      <h1>The Hierarchy of Ice Cream</h1>   
+      <ol>                          <!-- ol is an ordered list (1, 2, 3...) -->
+          <li>Green Tea</li>        <!-- li is an item in a list -->
+          <li>Mint Chocolate Chip</li>
+          <li>Chocolate</li>
+          <li>Vanilla</li>
+      </ol>
+  </div>
+</body>
+</html>
