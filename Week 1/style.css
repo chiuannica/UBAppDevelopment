@@ -1,0 +1,24 @@
+body{
+    color: pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color: red;
+}
+button{
+    background: lightblue;
+    border: 1px lightsalmon solid;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+li{
+    color: hotpink;
+    background: palegreen;
+    border: 3px yellow dashed;
+    margin: 10px;
+}
