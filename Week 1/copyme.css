@@ -19,6 +19,10 @@ a{
 li{
     color: hotpink;
     background: palegreen;
-    border: 3px yellow dashed;
+    border: 5px yellow ;
+    border-style: dashed solid;
     margin: 10px;
+}
+li:hover{
+    background:blue;
 }
