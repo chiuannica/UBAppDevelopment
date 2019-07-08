@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lesson 4</title>
+  <style>
+  body{
+    background: white;
+  }
+  p{
+    color: black;
+  }
+  .pinkbox{
+    background: pink;
+  }
+  .redbox{
+    background: red;
+    margin: 20px;
+  }
+  .bluebox{
+    background: blue;
+    margin: 20px;
+    padding: 10px;
+  }
+  .greenbox{
+    background: green;
+    margin: 20px;
+    margin-bottom: 100px;
+    padding: 10px;
+  }
+  .purplebox{
+    background: purple;
+    margin: 30px;
+    padding: 10px;
+    padding-left: 100px;
+  }
+  .box{
+    margin: 10px;
+    padding: 10px;
+  }
+  .lightblue{
+    background: lightblue;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+  }
+  .lime{
+    background: lime;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+  }
+  .plum{
+    background: plum;
+    border-width: 10px;
+    border-style: dotted;
+    border-color: red;
+  }
+  .yellow{
+    background: yellow;
+    border: 10px red dashed
+  }
+  .magenta{
+    background: magenta;
+    border: 10px red double;
+  }
+  .MAGIC{
+    background: lime;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: plum 5px dotted;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .MAGIC:hover{
+    background: limegreen;
+    border: plum 5px dashed;
+  }
+  .jawn{
+    padding: 10px;
+    background: transparent;
+    color: white;
+  }
+  .magicbutton{
+    background: blue;
+    padding: 2px;
+  }
+  .magicbutton:hover{
+    background: cyan;
+  }
+  .magicbutton:active{
+    background: red;
+  }
+  </style>
+</head>
+<body>
+  <div class="pinkbox">
+    <p>This pink container has <strong>no margin nor padding</strong></p>
+  </div>
+  <div class="redbox">
+    <p>This red container has <strong>margin: 20px</strong></p>
+  </div>
+  <div class="bluebox">
+    <p>This blue container has <strong>margin: 20px and padding: 10px</strong></p>
+  </div>
+  <div class="greenbox">
+    <p>This green container has <strong>margin: 20px, margin-bottom: 100px, and padding: 10px</strong></p>
+    <p><em>margin-bottom: 100px; causes the white space outside of the div ↓</em></p>
+  </div>
+  <div class="purplebox">
+    <p>This purple container has <strong>margin: 30px, padding: 10px, and padding-left: 100px;</strong></p>
+    <p><em>padding-left causes that space inside of the div ←</em></p>
+  </div>
+  <h2>All of the divs below have the class box which gives them all margin: 10px and padding:10px.</h2>
+  <div class="lightblue box">
+    <p>This div has margin: 10px, border: 2px, and padding: 10px </p>
+  </div>
+  <div class="lime box">
+    <p>This div has border-width: 10px, border-style: solid.</p>
+  </div>
+  <div class="plum box">
+    <p>This div has border-width: 10px, border-style: dotted.</p>
+  </div>
+  <div class="yellow box">
+    <p>This div has border-width: 10px, border-style: dashed.</p>
+  </div>
+  <div class="magenta box">
+    <p>This div has border-width: 10px, border-style: double.</p>
+  </div>
+  <div class="MAGIC">
+    <p>Hover over me</p>
+  </div>
+  <div class="jawn">
+    <p>This is a div with a link disguised as a button inside of it</p>
+    <a class="magicbutton">I am a magic button</a>
+  </div>
+  </body>
+</html>
